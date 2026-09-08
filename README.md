@@ -42,20 +42,17 @@ pip install numpy pillow
 ---
 
 ## ⚙️ How to Run
+
 1.  Clone the repository:
-
-git clone [https://github.com/YOUR_USERNAME/numpy-cnn-from-scratch.git](https://github.com/YOUR_USERNAME/numpy-cnn-from-scratch.git)
-cd numpy-cnn-from-scratch
-
-   ```
-   git clone [https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git](https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git) cd Modeling-of-Basic-Convolutional-Neural-Network
-   ```
+```
+git clone [https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git](https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git) cd Modeling-of-Basic-Convolutional-Neural-Network
+```
 2.  Ensure your dataset folders (group_0, group_1, group_2, group_3) are placed in the root directory, each containing up to 100 images.
    
 3.  Run the script:
-    ```
-    python cnn.py
-    ```
+```
+python cnn.py
+```
 
 ---
 
