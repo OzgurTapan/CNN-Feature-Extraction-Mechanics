@@ -28,7 +28,7 @@ labels = []
 
 print("--- Loading Dataset from Folders ---")
 for class_idx in range(4):
-    folder_name = os.path.join("dateset", f"group_{class_idx}")
+    folder_name = os.path.join("dataset", f"group_{class_idx}")
     
     if os.path.exists(folder_name):
         # Fetch up to 100 images per group
