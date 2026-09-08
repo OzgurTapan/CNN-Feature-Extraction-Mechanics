@@ -63,7 +63,7 @@ KERNEL_SIZE = 3        # Filter matrix size (e.g., 3x3)
 CONV_STRIDE = 1        # Filter step size
 POOL_SIZE = 2          # Max pooling window size
 
---
+---
 
 ## 📈 Future Improvements
 [ ] Implement Backpropagation and Gradient Descent.
