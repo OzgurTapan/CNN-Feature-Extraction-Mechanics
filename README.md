@@ -68,7 +68,5 @@ POOL_SIZE = 2          # Max pooling window size
 
 ---
 
-## 📈 Future Improvements
-[ ] Implement Backpropagation and Gradient Descent.  
-[ ] Add Fully Connected (Dense) output layers with Softmax cross-entropy loss.  
-[ ] Optimize spatial loops using im2col vectorization for faster execution.  
+## 📈 Final Notes
+Interestingly, in machine learning, even untrained random convolutional layers can be  used sometimes as a baseline feature extractor (or in techniques like extreme learning machines) because the local sliding window structure inherently detects edges and textures regardless of whether the weights are learned or random.
