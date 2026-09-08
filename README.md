@@ -35,8 +35,9 @@ When processing the dataset through the pipeline, the tensor shapes change dynam
 ## 🛠️ Installation & Prerequisites
 
 Make sure you have Python installed along with the required standard libraries:
-
+```
 pip install numpy pillow
+```
 
 ---
 
@@ -46,26 +47,31 @@ pip install numpy pillow
 git clone [https://github.com/YOUR_USERNAME/numpy-cnn-from-scratch.git](https://github.com/YOUR_USERNAME/numpy-cnn-from-scratch.git)
 cd numpy-cnn-from-scratch
 
+   ```
+   git clone [https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git](https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git) cd numpy-cnn-from-scratch
+   ```
 2.  Ensure your dataset folders (group_0, group_1, group_2, group_3) are placed in the root directory, each containing up to 100 images.
    
 3.  Run the script:
-python cnn.py
+    ```
+    python cnn.py
+    ```
 
 ---
 
 ## 🎛️ Hyperparameter Customization
 You can tweak the network parameters directly at the top of cnn.py:
-Python
-INPUT_HEIGHT = 300     # Image height (can be reduced to 64 for faster testing)
+
+INPUT_HEIGHT = 300     # Image height (can be reduced to 64 for faster testing)  
 INPUT_WIDTH = 300      
-OUT_CHANNELS = 8       # Number of convolutional filters
-KERNEL_SIZE = 3        # Filter matrix size (e.g., 3x3)
-CONV_STRIDE = 1        # Filter step size
-POOL_SIZE = 2          # Max pooling window size
+OUT_CHANNELS = 8       # Number of convolutional filters  
+KERNEL_SIZE = 3        # Filter matrix size (e.g., 3x3)  
+CONV_STRIDE = 1        # Filter step size  
+POOL_SIZE = 2          # Max pooling window size  
 
 ---
 
 ## 📈 Future Improvements
-[ ] Implement Backpropagation and Gradient Descent.
-[ ] Add Fully Connected (Dense) output layers with Softmax cross-entropy loss.
-[ ] Optimize spatial loops using im2col vectorization for faster execution.
+[ ] Implement Backpropagation and Gradient Descent.  
+[ ] Add Fully Connected (Dense) output layers with Softmax cross-entropy loss.  
+[ ] Optimize spatial loops using im2col vectorization for faster execution.  
