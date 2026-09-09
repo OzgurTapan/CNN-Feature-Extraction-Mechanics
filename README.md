@@ -25,10 +25,10 @@ When processing the dataset through the pipeline, the tensor shapes change dynam
 
 | Layer | Operation / Formula | Output Shape |
 | :--- | :--- | :--- |
-| **Input Data** | Loaded & resized RGB images | `(400, 300, 300, 3)` |
-| **Conv2D** | $3\times3$ kernel, 8 filters, stride=1 | `(400, 298, 298, 8)` |
-| **ReLU** | Element-wise non-linearity | `(400, 298, 298, 8)` |
-| **MaxPool2D** | $2\times2$ pooling window, stride=2 | `(400, 149, 149, 8)` |
+| **Input Data** | Loaded & resized RGB images | `(400, 64, 64, 3)` |
+| **Conv2D** | $3\times3$ kernel, 8 filters, stride=1 | `(400, 62, 62, 8)` |
+| **ReLU** | Element-wise non-linearity | `(400, 62, 62, 8)` |
+| **MaxPool2D** | $2\times2$ pooling window, stride=2 | `(400, 31, 31, 8)` |
 
 ---
 
