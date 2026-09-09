@@ -59,8 +59,8 @@ python cnn.py
 ## 🎛️ Hyperparameter Customization
 You can tweak the network parameters directly at the top of cnn.py:
 
-INPUT_HEIGHT = 300     # Image height (can be reduced to 64 for faster testing)  
-INPUT_WIDTH = 300      
+INPUT_HEIGHT = 64      # Image height (can be reduced for faster testing)  
+INPUT_WIDTH = 64      
 OUT_CHANNELS = 8       # Number of convolutional filters  
 KERNEL_SIZE = 3        # Filter matrix size (e.g., 3x3)  
 CONV_STRIDE = 1        # Filter step size  
