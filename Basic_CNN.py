@@ -6,8 +6,8 @@ from PIL import Image
 # 1. USER SETTINGS AND HYPERPARAMETERS
 # =====================================================================
 
-INPUT_HEIGHT = 300     # 300x300 as per your dataset (or 64 for fast testing)
-INPUT_WIDTH = 300      
+INPUT_HEIGHT = 64      # 64x64 as per dataset image for fast testing
+INPUT_WIDTH = 64      
 IN_CHANNELS = 3        # RGB channels (3)
 
 # Conv2D (Convolution) Parameters
