@@ -1,4 +1,4 @@
-# Pure NumPy Convolutional Neural Network (CNN) from Scratch
+# Pure NumPy Convolutional Neural Network (CNN) Feature Extractor from Scratch
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![NumPy](https://img.shields.io/badge/Library-NumPy%20Only-orange)
@@ -45,13 +45,13 @@ pip install numpy pillow
 
 1.  Clone the repository:
 ```
-git clone [https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git](https://github.com/OzgurTapan/Modeling-of-Basic-Convolutional-Neural-Network.git) cd Modeling-of-Basic-Convolutional-Neural-Network
+git clone [https://github.com/OzgurTapan/CNN-Feature-Extractor-From-Scratch.git](https://github.com/OzgurTapan/CNN-Feature-Extractor-From-Scratch.git) cd CNN-Feature-Extractor-From-Scratch
 ```
 2.  Ensure your dataset folder is placed in the root directory, containing 4 groups with a total of 400 images.
    
 3.  Run the script:
 ```
-python cnn.py
+python Basic_CNN.py
 ```
 
 ---
