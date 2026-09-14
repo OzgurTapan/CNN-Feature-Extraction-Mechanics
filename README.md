@@ -1,10 +1,10 @@
-# Pure NumPy Convolutional Neural Network (CNN) Feature Extractor from Scratch
+# Pure NumPy Convolutional Neural Network (CNN) Feature Extraction Mechanics (Forward Pass Demo)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![NumPy](https://img.shields.io/badge/Library-NumPy%20Only-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A modular, highly customizable implementation of a Convolutional Neural Network (CNN) built **strictly using NumPy and standard Python libraries**. No heavy deep learning frameworks (like PyTorch or TensorFlow) are used under the hood. 
+A modular, highly customizable implementation of a Convolutional Neural Network (CNN) Feature Extractor built **strictly using NumPy and standard Python libraries**. No heavy deep learning frameworks (like PyTorch or TensorFlow) are used under the hood. 
 
 The goal of this project is to demystify the mathematical operations, tensor transformations, and forward-pass mechanics that happen inside modern deep learning layers.
 
